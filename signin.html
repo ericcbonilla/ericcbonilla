@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,9 @@
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
+    
+    <!-- More cusom styles for this template -->
+    <link href="the-big-picture.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -33,17 +36,38 @@
     <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading" style="color:#FFFFFF">Sign in...</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox">
-          <label>
+          <label style="color:#FFFFFF">
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        
+        
+        </form>
+        <br/><br/><br/>
+        <form class="form-signin">
+        
+        <h2 class="form-signin-heading" style="color:#FFFFFF">...Or create an account</h2>
+        <label for="inputName" class="sr-only">Organization Name</label>
+        <input type="name" id="inputName" class="form-control" placeholder="Organization Name" required autofocus>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="inputPassword2" class="sr-only">Confirm password</label>
+        <input type="password" id="inputPassword2" class="form-control" placeholder="Confirm password" required>
+        <div class="checkbox">
+          <label style="color:#FFFFFF">
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Create!</button>
       </form>
 
     </div> <!-- /container -->
