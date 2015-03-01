@@ -1326,12 +1326,16 @@ mark,
 .text-muted {
   color: #777;
 }
+
+
 .text-primary {
   color: #337ab7;
 }
 .text-me {
-  color: #777;
+  color: #c4df9b;
 }
+
+
 a.text-primary:hover {
   color: #286090;
 }
