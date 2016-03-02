@@ -1,0 +1,32 @@
+body {
+	/*background-color: #ECF0F1;*/
+/*	background-color: rgb(246, 250, 251);
+*/	background-color: rgb(255, 255 ,255);
+	width: 100vw;
+	height: 100vh;
+
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display: flex;	
+	/*justify-content: center;	/* aligns vertical*/
+	align-items: left;	/* aligns horizontal*/
+	flex-flow: column wrap;
+	height: 100%;
+}
+
+#footer {
+	margin: auto;
+	background-color: #34495E;
+	height: 5%;
+	width: 80%;
+	padding: 10px;
+}
+
+footer {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	color: #67809F;
+}
