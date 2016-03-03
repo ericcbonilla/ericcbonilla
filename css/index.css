@@ -43,7 +43,7 @@ a:link, a:visited {
 
 a.link1:hover {
 	/*color: #6BB9F0;*/
-	color: rgb(162, 222, 208);
+	color: rgb(192, 57, 43);
 	text-decoration: none;
 	cursor:auto;
 }
@@ -77,7 +77,7 @@ a.resume:hover {
 
 p.summary {
 	font-family: Helvetica, Verdana, sans-serif;
-	color: #BFBFBF;
+	color: rgb(164, 154, 154);
 	font-size: .9em;
 
 	font-weight: 100;
@@ -86,6 +86,19 @@ p.summary {
 	padding-left: 37px;
 	padding-right: 37px;
 	padding-top: 0px;
+}
+
+p.descr {
+	font-family: Helvetica, Verdana, sans-serif;
+
+	color: rgb(164, 154, 154);
+	font-size: .8em;
+
+	font-weight: 100;
+	letter-spacing: .5px;
+
+	padding-top: 15px;
+	margin-bottom: -5px;
 }
 
 p.info {
@@ -110,10 +123,28 @@ h3.projname {
 	font-size: 2.2em;
 	padding-left: 0px;
 	padding-left: 37px;
-
 }
 
 div.projname {
 	margin-top:90px;
 	margin-left:0px;
 }
+
+div.proj {
+	padding-left:37px;
+	padding-right:37px;
+	padding-bottom:37px;
+}
+
+img.coral1 {
+	margin-top: 10px;
+	margin-right: 37px;
+	width: 400px;
+}
+
+img.coral2 {
+	margin-top: 10px;
+	margin-right: 37px;
+	width: 400px;
+}
+
