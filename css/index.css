@@ -1,3 +1,5 @@
+/* © 2016 ⋅ Eric Bonilla */
+
 #card {
 	/*background-color: rgba(253, 227, 167, .1); /* #D2D7D3 */
 	height: 100%;
@@ -99,6 +101,9 @@ p.descr {
 
 	padding-top: 15px;
 	margin-bottom: -5px;
+
+
+
 }
 
 p.info {
@@ -109,7 +114,7 @@ p.info {
 
 hr.card {
     border: 0;
-    width: 1px;
+    width: 0px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), 
     rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     margin-bottom:-70px;
@@ -125,9 +130,10 @@ h3.projname {
 	padding-left: 37px;
 }
 
-div.projname {
+div.projFull {
 	margin-top:90px;
 	margin-left:0px;
+	padding-bottom:37px;
 }
 
 div.proj {
@@ -136,15 +142,43 @@ div.proj {
 	padding-bottom:37px;
 }
 
-img.coral1 {
+img {
 	margin-top: 10px;
 	margin-right: 37px;
-	width: 400px;
+}
+
+img.coral1 {
+	width: 40.25vw;
 }
 
 img.coral2 {
-	margin-top: 10px;
-	margin-right: 37px;
-	width: 400px;
+	height: 53.5vw;
 }
 
+img.coral3 {
+	height: 10vw;
+}
+
+img.refuge1 {
+	width: 40.2vw;
+}
+
+img.refuge2 {
+	width: 41vw;
+}
+
+div#col2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 2vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2vw; /* Firefox */
+    column-gap: 2vw;
+}
+
+img#git {
+	margin:0;
+	margin-bottom:-4px;
+	width:1.4em;
+}
