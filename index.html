@@ -1,56 +1,101 @@
 <!DOCTYPE HTML>
-<!--© 2016 ⋅ Eric Bonilla-->
+<!-- 2016 ⋅ Eric Bonilla-->
 
 <html>
 	<head>
 	<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		
+
 		<script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	</head>
 	<body>
+
+		<!--guides-->
+		<hr class="guides" id="center" width="1" size="1500">
+		<hr class="guides" id="col-center" width="1" size="1500">
+		<hr class="guides" id="left" width="1" size="1500">
+		<hr class="guides" id="right" width="1" size="1500">
+
 		<script src="js/velocity.min.js">
 
 		</script>
 		<div class="flex-container">
 			<div id="card">
-				<h3 class="header"> 
-					<span class="name"> eric bonilla </span> / 
-					1.408.431.7327 / 
+				<h3 class="header">
+					<span class="name"> eric bonilla </span> /
+					1.408.431.7327 /
 					Santa Clara, CA /
-					<a class="link1" href="https://mail.google.com/mail/?view=cm&fs=1&to=ericcbonilla@gmail.com" target="_blank"> ericcbonilla@gmail.com </a> / 
-					<a class="link2" href="https://www.github.com/ericcbonilla" target="_blank"> github </a> / 
-					<a class="link3" href="https://linkedin.com/pub/eric-bonilla/62/593/1a6" target="_blank"> linkedin </a> / 
-					<a class="resume" href="assets/EricBonilla.pdf" target="_blank"> resume </a>
+					<a class="link1" title="or ebonilla@scu.edu" href="https://mail.google.com/mail/?view=cm&fs=1&to=ericcbonilla@gmail.com" target="_blank"> ericcbonilla@gmail.com </a> /
+					<a class="link2" href="https://www.github.com/ericcbonilla"> github </a> /
+					<a class="link3" href="https://linkedin.com/pub/eric-bonilla/62/593/1a6"> linkedin </a> /
+					<a target="_blank" class="resume" href="assets/EricBonilla.pdf" download> resume </a>
 				</h3>
 
 				<!--<hr class="card">-->
 
-				<p class="summary"> Hi! I'm a third year student at Santa Clara University currently pursuing a degree in Web Design and Engineering, with a minor in Computer Science and Engineering. I have multiple years of experience in C, C++, JavaScript, HTML5/CSS3, and some experience with Objective C, Swift, PHP, Python, and Scala. Currently searching for an internship in web development, UI/UX design, or a related field. </p>
+				<p class="summary"> Hi! I'm a third year student at Santa Clara University currently pursuing a degree in Web Design and Engineering, with a minor in Computer Science and Engineering. I have multiple years of experience in C, C++, JavaScript, HTML5/CSS3, and some experience with Objective C, Swift, PHP, Python, and Scala. Currently searching for an internship in web development, mobile development, UI/UX design, or a related field. </p>
 
 				<p class="summary"> Below are some projects and designs I've worked on.</p>
 
-				<hr class="card" width="1" size="200">
+				<hr class="card" width="1" size="150">
 
 				<div class="projFull">
+
+					<!-- project block -->
+					<h3 class="projname"> CampusZone </h3>
+					<p class="summary"> CampusZone is an upcoming location-based social networking app meant to create a hub for students to post photos of campus life and events. I focused on creating clean, aesthetic page layout and graphics for the app.</p>
+
+					<!--two column layout-->
+					<div class="proj" id="col4">
+						<img class="cz"src="assets/cz1.jpg" alt = "cz1"/>
+						<img class="cz"src="assets/cz2.jpg" alt = "cz2"/>
+						<img class="cz"src="assets/cz3.jpg" alt = "cz3"/>
+						<img class="cz"src="assets/cz4.jpg" alt = "cz4"/>
+					</div>
+					<!-- end project block -->
+
+					<!-- project block -->
 					<h3 class="projname"> Coral Greenbrier </h3>
 					<p class="summary">Graphics project which involved creating a vector-based artwork in Adobe Illustrator from a raster image. No built-in tracing was used; each shape was drawn and colored individually.</p>
 
 					<!--two column layout-->
 					<div class="proj" id="col2">
 						<p class="descr">Original</p>
-						<a href="assets/coral_orig.jpg"><img class="coral1"src="assets/coral_orig.jpg" alt = "coral_orig"/></a>
+						<img class="coral1"src="assets/coral_orig.jpg" alt = "coral_orig"/>
 
-						<p class="descr">Vector (Click to view larger)</p>
+						<p class="descr">Vector <a class="link2" href="assets/coral_vector.jpg">(Click to view larger)</a></p>
 						<a href="assets/coral_vector.jpg"><img class="coral2" src="assets/coral_vector.jpg" alt = "coral_vector"/></a>
 					</div>
+					<!-- end project block -->
 
+					<!-- project block -->
+					<h3 class="projname"> RecycleBoys </h3>
+					<p class="summary">Worked with a partner on a web project that utilized HTML/CSS, PHP, Jquery, and MySQL to create a educational site about sustainability. Focused on page and grahpic design as well as Javascript logic. </p>
+
+					<p class="summary">
+						<a class="link2" href="https://github.com/Achoulos/RecycleBoys"><img class="icon" src="assets/GitHub-Mark-64px.png" alt="github"/> View on Github</a>
+					</p>
+
+					<!--two column layout-->
+					<div class="proj" id="col2">
+						<img id="boys1"src="assets/boys1.png" alt = "boys1"/>
+						<img id="boys2" src="assets/boys2.png" alt = "boys2"/>
+					</div>
+					<!-- end project block -->
+
+					<!-- project block -->
 					<h3 class="projname"> Refuge </h3>
 					<p class="summary">Proof-of-concept web front-end built to work alongside an iOS app built with a small team during Hack for the Homeless, a 24-hour hackathon geared toward creating applications and products to help the homeless and economically disadvantaged. </p>
 
 					<p class="summary">
-						<a class="link2" href="https://github.com/ericcbonilla/Refuge" target="_blank"><img id="git" src="assets/GitHub-Mark-64px.png" alt="github"/> View on Github</a>
+						<a class="link2" href="https://github.com/ericcbonilla/Refuge"><img class="icon" src="assets/GitHub-Mark-64px.png" alt="github"/> View on Github</a>
+					</p>
+
+					<p class="summary">
+						<a class="link2" href="http://students.engr.scu.edu/~achoulos/RecycleBoys/home/home.html">...or view live site</a>
 					</p>
 
 					<!--two column layout-->
@@ -59,9 +104,25 @@
 
 						<img class="refuge2" src="assets/refuge2.png" alt = "refuge2"/>
 					</div>
+					<!-- end project block -->
 
-					<p class="summary"> More coming soon...</p>
+					<h3 class="projname"> Photography </h3>
+					<p class="summary">I work as a photographer/photo editor for multiple organizations on campus, but photography's also my go-to hobby. You can see some of my work below, or view my full portfolio on Flickr. </p>
 
+					<p class="summary">
+						<a class="link2" href="https://www.flickr.com/photos/ericcb/"><img class="icon" src="assets/flickr.png" alt="flickr"/> Full Portfolio</a>
+					</p>
+
+					<div class="proj2" id="col2f">
+						<a target="_blank" href="https://www.flickr.com/photos/ericcb/12247181845/"><img id="photo1"src="assets/flickr1.jpg" title="" alt = "flickrsq"/></a>
+
+						<a target="_blank" href="https://www.flickr.com/photos/ericcb/17059478808/"><img id="photo2" src="assets/flickr2.jpg" alt = "flickrsf"/></a>
+
+						<a target="_blank" href="https://www.flickr.com/photos/ericcb/20639471634/"
+						><img id="photo3" src="assets/flickr3.jpg" alt = "flickrmw"/></a>
+					</div>
+
+						<p class="summary" id="bottom"> More coming soon...</p>
 				</div>
 
 			</div>
@@ -69,4 +130,4 @@
 	</body>
 </html>
 
-<!--© 2016 ⋅ Eric Bonilla-->
+<!-- 2016 ⋅ Eric Bonilla-->

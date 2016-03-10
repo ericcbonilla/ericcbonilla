@@ -1,4 +1,4 @@
-/* © 2016 ⋅ Eric Bonilla */
+/* 2016 ⋅ Eric Bonilla */
 
 #card {
 	/*background-color: rgba(253, 227, 167, .1); /* #D2D7D3 */
@@ -13,7 +13,6 @@
 }
 
 h3 {
-	font-family: Helvetica, Verdana, sans-serif;
 	text-align: left;
 	padding-left: 37px;
 
@@ -27,6 +26,8 @@ h3 {
 
 h3.header {
 	color: rgb(109, 115, 119);
+
+	margin-right:7.75vw;
 }
 
 span.name {
@@ -58,7 +59,7 @@ a.link2:hover {
 }
 
 a.link3:hover {
-	color: rgb(0, 93, 166);
+	color: rgb(20, 123, 236);
 /*	color: rgb(149, 155, 159);
 */	text-decoration: none;
 	cursor:auto;
@@ -78,7 +79,8 @@ a.resume:hover {
 }
 
 p.summary {
-	font-family: Helvetica, Verdana, sans-serif;
+	/*background-color: lightblue;*/
+
 	color: rgb(164, 154, 154);
 	font-size: .9em;
 
@@ -86,13 +88,17 @@ p.summary {
 	letter-spacing: .5px;
 
 	padding-left: 37px;
-	padding-right: 37px;
+	/*padding-right: 37px;*/
 	padding-top: 0px;
+
+	margin-right:7.75vw;
+}
+
+p#bottom {
+	margin-top:90px;
 }
 
 p.descr {
-	font-family: Helvetica, Verdana, sans-serif;
-
 	color: rgb(164, 154, 154);
 	font-size: .8em;
 
@@ -101,9 +107,6 @@ p.descr {
 
 	padding-top: 15px;
 	margin-bottom: -5px;
-
-
-
 }
 
 p.info {
@@ -115,12 +118,11 @@ p.info {
 hr.card {
     border: 0;
     width: 0px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
     margin-bottom:-70px;
     margin-top:25px;
     margin-left:37px;
-
 }
 
 h3.projname {
@@ -132,8 +134,7 @@ h3.projname {
 
 div.projFull {
 	margin-top:90px;
-	margin-left:0px;
-	padding-bottom:37px;
+	margin-bottom:37px;
 }
 
 div.proj {
@@ -142,9 +143,16 @@ div.proj {
 	padding-bottom:37px;
 }
 
+/*flickr*/
+div.proj2 {
+	padding-left:37px;
+	padding-right:6.4vw;
+	padding-bottom:37px;
+}
+
 img {
 	margin-top: 10px;
-	margin-right: 37px;
+	/*margin-right: 37px;*/
 }
 
 img.coral1 {
@@ -155,16 +163,12 @@ img.coral2 {
 	height: 53.5vw;
 }
 
-img.coral3 {
-	height: 10vw;
-}
-
 img.refuge1 {
 	width: 40.2vw;
 }
 
 img.refuge2 {
-	width: 41vw;
+	width: 41.2vw;
 }
 
 div#col2 {
@@ -177,8 +181,58 @@ div#col2 {
     column-gap: 2vw;
 }
 
-img#git {
+div#col4 {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+
+    -webkit-column-gap: 1vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1vw; /* Firefox */
+    column-gap: 1vw;
+}
+
+div#col2f {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: .1vw; /* Chrome, Safari, Opera */
+    -moz-column-gap: .1vw; /* Firefox */
+    column-gap: .1vw;
+}
+
+img.icon {
 	margin:0;
 	margin-bottom:-4px;
 	width:1.4em;
+}
+
+a.flickr {
+	margin-left: 37px;
+	width: 400px;
+}
+
+img#photo1 {
+	width: 43.0vw;
+	/*margin-bottom: 52.5px;*/
+}
+
+img#photo2 {
+	width: 43.0vw;
+}
+
+img#photo3 {
+	width: 43.8vw;
+}
+
+img.cz {
+	width: 18.1vw;
+}
+
+img#boys1{
+	width: 40.2vw;
+}
+
+img#boys2{
+	width: 41.2vw;
 }
